@@ -1,0 +1,77 @@
+.conteiner-modal{
+    height: 311%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(3,3,3,0.5);
+    position: absolute; 
+  }
+  .card-modal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    width: 774px;
+    padding: 80px 90px 84px 90px;
+    position: relative;
+  }
+  .btn-close{
+    width: 64px;
+    height: 64px;
+    margin: 0;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+  }
+  .btn-close:hover{
+    transform: scale(1.1);
+  }
+  .img-modal{
+    width: 594px;
+    height: 486px;
+  }
+  .modal-nome{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 48px;
+  }
+  .descricao-modal{
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .modal-compra{
+    display: flex;
+    margin-top: 64px;
+  }
+  .btn-comprar{
+    all: unset;
+    width: 350px;
+    height: 64px;
+    background-color: #52BB50;
+    color: #FFFCFC;
+    margin-right: 24px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  .precos-modal{
+    display: flex;
+    width: 272px;
+    align-items: center;
+  }
+  .valor-atual{
+    font-size: 32px;
+    font-weight: 700;
+  }
+  .valor-antigo{
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .parcela{
+    margin-top: 13px;
+    width: 196px;
+    justify-content: space-between;
+  }

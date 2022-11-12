@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    text-align: center;
+    background-image: url('../../assets/banner.jpg');
+    background-size: cover;
+    position: relative;
+    color: white;
+    border-radius: 0px 0px 32px 32px;
+    z-index: 0;
+}
+h1{
+    margin-top: 132px;
+    margin-bottom: 23px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 88px;
+    line-height: 103px;
+}
+h2{
+    margin-bottom: 226px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 25px;
+}
+.logo-header{
+    width: 166px;
+    height: 67px;
+    border-radius: 0px 0px 32px 32px;
+    position: absolute;
+    bottom: 26px;
+    left: 33px;
+}
